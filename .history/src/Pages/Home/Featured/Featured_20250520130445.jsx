@@ -1,0 +1,116 @@
+import React from 'react';
+import CustomHeader from '../../../Components/CustomHeader/CustomHeader';
+import featured1Img from '../../../assets/images/featured1.png'
+import featured2Img from '../../../assets/images/featured2.png'
+import featured3Img from '../../../assets/images/featured3.png'
+import featured4Img from '../../../assets/images/featured4.png'
+import ArrowButton from '../../../Components/ArrowButton/ArrowButton';
+import { Link } from 'react-router-dom';
+const Featured = () => {
+    return (
+        <div className='my-20'>
+            <div>
+                <CustomHeader heading='Featured' subHeading='Resources'></CustomHeader>
+            </div>
+            <div className='flex flex-col lg:flex-row gap-10'>
+                {/* card1--------------- */}
+                <div className="card  w-96 shadow-sm">
+                    <figure>
+                        <img
+                            src={featured1Img}
+                            alt="Shoes" />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="text-[#2D3748] ">How to Build a Scalable Application up to 1 Million Users on AWS</h2>
+
+                        <div className="card-actions justify-end">
+                            <ArrowButton btnText='Read More'></ArrowButton>
+
+                        </div>
+                    </div>
+                </div>
+
+                {/* card2--------------- */}
+
+                <div className="card  w-96 shadow-sm">
+                    <figure>
+                        <img
+                            src={featured2Img}
+                            alt="Shoes" />
+                    </figure>
+                    <div className="card-body">
+                        <Link><h2 className="text-left text-base text-[#2D3748]">How to Build a Scalable Application up to 1 Million Users on AWS</h2> </Link>
+                        <div className="card-actions justify-end">
+                            <ArrowButton btnText='Read More'></ArrowButton>
+
+                        </div>
+                    </div>
+                </div>
+
+                {/* card3--------------- */}
+
+                {/* <div className="card  w-96 shadow-sm border rounded-lg">
+
+                    <img
+                        src={featured3Img}
+                        className="w-full object-cover"
+                        alt="Scalable App on AWS"
+                    />
+
+                    <div className="card-body ">
+                        <Link><h2 className="text-left text-base text-[#2D3748]">How to Build a Scalable Application up to 1 Million Users on AWS</h2> </Link>
+
+                        <div className="card-actions justify-end">
+                            <ArrowButton btnText='Read More'></ArrowButton>
+
+                        </div>
+                    </div>
+                </div> */}
+                <div className="w-full shadow-sm border rounded-lg overflow-hidden p-0">
+                    <img
+                        src={featured3Img}
+                        className="w-full block"
+                        alt="Scalable App on AWS"
+                    />
+
+                    <div className="px-3 py-4">
+                        <Link>
+                            <h2 className="text-left mb-4 text-[#2D3748]">
+                                How to Build a Scalable Application up to 1 Million Users on AWS
+                            </h2>
+                        </Link>
+
+                        <div className="justify-end">
+                            <ArrowButton btnText='Read More' />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                {/* card4--------------- */}
+
+                <div className="card  w-96 shadow-sm">
+                    <figure>
+                        <img
+                            src={featured4Img}
+                            alt="Shoes" />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title text-[#2D3748]">How to Build a Scalable Application up to 1 Million Users on AWS</h2>
+
+                        <div className="card-actions justify-end">
+                            <ArrowButton btnText='Read More'></ArrowButton>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    );
+};
+
+export default Featured;

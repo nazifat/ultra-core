@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@fontsource/inter"; /* Defaults to 400 weight */
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
+body{
+    background-color: white;
+}
+.custom-navbar{
+    font-family: 'Inter', sans-serif;
+
+    font-weight: 500;
+    color: #4A5568;
+    font-size: 16px;
+  
+
+
+}
+
+
+
+

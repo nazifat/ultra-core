@@ -1,0 +1,141 @@
+
+@import "@fontsource/inter"; /* Defaults to 400 weight */
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: white;
+}
+
+
+.custom-navbar{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #4A5568;
+    font-size: 16px;
+}
+
+.custom-navbar a{
+  margin-right: 15px;
+}
+
+
+.custom-footer{
+
+
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+color: #718096;
+line-height:  30px;
+letter-spacing: 0%;
+font-size: 16px;
+
+}
+
+.card{
+    width: fit-content;
+    width: 95%;
+    margin: auto;
+    height: 400px;
+}
+
+@media (max-width: 480px) {
+    .card {
+      height: 300px; /* or any smaller value */
+      width: 80%;
+    }
+  }
+
+ 
+  .tab:hover{
+    background: linear-gradient(to right, #F76680, #57007B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    /* Optional: for Firefox */
+    background-clip: text;
+    color: transparent;
+  
+  } 
+  .tab{
+      color: gray;
+      border-bottom: white 2px solid;
+     
+
+      
+  }
+
+  .tabs{
+
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: medium;
+
+  }
+ 
+
+  .tab:not(:checked, label:has(:checked), :hover, .tab-active, [aria-selected="false"]){
+    color: gray;
+    /* border-bottom: purple 2px; */
+
+  }
+
+  .tab:checked, label:has(:checked), .tab-active, [aria-selected="true"]{
+    color: purple;
+    /* border-bottom: purple 2px solid; */
+
+  background: -webkit-linear-gradient(#F76680, #57007B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  
+
+
+  }
+
+  .tab-content {
+    margin-top: 50px;
+    padding: 0 10px 0 10px;
+    width: 70%;
+    max-width: auto;
+  }
+  .tab-content img{
+    height: 60px;
+    width: fit-content;
+  }
+
+
+  @media (max-width: 480px){
+
+    
+
+    .circle-divider{
+      display: none;
+    }
+
+    .how-it-works-divider{
+      display:none;
+    }
+  
+
+  }
+
+
+  .approach p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #5d697e;
+    font-family: 'Inter';
+    line-height: 162%;
+  }
+
+  .navbar {
+    padding: 17px;
+  }
+

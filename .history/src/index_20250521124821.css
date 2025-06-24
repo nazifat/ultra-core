@@ -1,0 +1,92 @@
+
+@import "@fontsource/inter"; /* Defaults to 400 weight */
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: white;
+}
+
+
+.custom-navbar{
+    font-family: 'Inter', sans-serif;
+
+    font-weight: 500;
+    color: #4A5568;
+    font-size: 16px;
+  
+
+
+}
+
+
+.custom-footer{
+
+
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+color: #718096;
+line-height:  30px;
+letter-spacing: 0%;
+font-size: 16px;
+
+}
+
+.card{
+    width: fit-content;
+    width: 95%;
+    margin: auto;
+    height: 400px;
+}
+
+@media (max-width: 480px) {
+    .card {
+      height: 300px; /* or any smaller value */
+      width: 80%;
+    }
+  }
+
+  .tab:hover{
+      color: purple;
+      border-bottom: purple 2px;
+  } 
+  .tab{
+      color: gray;
+      border-bottom: white 2px;
+
+      
+  }
+  .tab::selection{
+    color: purple;
+    border-bottom: purple 2px;
+
+  }
+
+  /* .tab-radio {
+    display: none;
+  }
+  
+  .tab-label {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid purple;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: purple;
+    transition: all 0.3s ease;
+  }
+  
+  /* Style when selected */
+  /* .tab-radio:checked + .tab-label {
+    background-color: purple;
+    color: white;
+    border-color: purple;
+  } */
+   

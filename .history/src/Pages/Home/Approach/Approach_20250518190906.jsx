@@ -1,0 +1,42 @@
+import React from 'react';
+import approach1 from '../../../assets/images/approach1.png'
+import approach2 from '../../../assets/images/approach2.png'
+import approach3 from '../../../assets/images/approach3.png'
+import approach4 from '../../../assets/images/approach4.png'
+import approach5 from '../../../assets/images/approach5.png'
+import approach6 from '../../../assets/images/approach6.png'
+
+const Approach = () => {
+    return (
+        <div className='m-5 bg-[#F7F7FA] lg:p-20 '>
+            <div className='' >
+                <h1 className=' text-[#1A202C] text-3xl font-light mb-5 leading-relaxed'>Our design and
+
+                    <br />   <span className='font-bold'> development approach</span> </h1>
+
+            </div>
+
+            <div>
+                <div className=" bg-[#FAFAFA] border border-[#E7DAED] w-96 p-10 rounded ">
+                    <div className=" flex gap-2 items-start">
+                        <div className='flex-shrink-0 '>
+                            <img src={approach1} alt="" />
+                        </div>
+                        <div className='flex-1 text-left space-y-5'>
+                            <h2 className="card-title text-[#1A202C]">UX Driven Engineering</h2>
+                            <p className='text-[#4A5568]'>Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.
+
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    );
+};
+
+export default Approach;

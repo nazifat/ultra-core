@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-navbar{
+    font: inter;
+    font-weight: 500;
+    color: #4A5568;
+
+
+}
+
+
+

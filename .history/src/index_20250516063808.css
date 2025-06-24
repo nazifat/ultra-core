@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar{
+    font: inter;
+    font-weight: 500;
+    letter-spacing: 0%;
+    color: #4A5568;
+    line-height: 25px;;
+
+
+}
+
+
+

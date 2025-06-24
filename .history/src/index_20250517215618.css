@@ -1,0 +1,45 @@
+
+@import "@fontsource/inter"; /* Defaults to 400 weight */
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: white;
+}
+
+
+.custom-navbar{
+    font-family: 'Inter', sans-serif;
+
+    font-weight: 500;
+    color: #4A5568;
+    font-size: 16px;
+  
+
+
+}
+
+
+.custom-footer{
+
+
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+color: #718096;
+line-height:  30px;
+letter-spacing: 0%;
+font-size: 16px;
+
+}
+
+.card{
+    width: fit-content;
+    /* margin: auto; */
+}
+
