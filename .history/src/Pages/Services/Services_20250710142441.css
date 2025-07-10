@@ -1,0 +1,15 @@
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-12px); /* Moves card upward */
+  /* background-color: #f9f1ff;    Optional background change */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow */
+  cursor: pointer;
+}
+
+.hover-card:hover img {
+  transform: scale(1.05) rotate(2deg);
+  transition: transform 0.3s ease;
+}
