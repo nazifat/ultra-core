@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "1",
+    "blogTitle": "5 Reasons Your Business Needs Custom Software",
+    "description": "Off-the-shelf software can be limiting when your business has unique workflows or customer needs. Custom software allows you to streamline operations, automate tasks, and integrate directly with existing tools. It enhances efficiency by tailoring functionality to your exact business logic. Moreover, it provides better data control, long-term cost-effectiveness, and scalability. When your company grows or pivots, custom software can adapt, helping you avoid costly migrations or workarounds. Investing in custom solutions ensures you’re building tools that truly support your goals, not the other way around.",
+    "author": "Ayesha Rahman",
+    "date": "2025-06-15",
+    "imgUrl": "https://i.ibb.co.com/gFT0C9m1/featured2.png"
+  },
+  {
+    "_id": "2",
+    "blogTitle": "How to Choose the Right Tech Stack for Your Startup",
+    "description": "Selecting the right tech stack involves understanding your product vision, timeline, scalability needs, and the skills of your development team. For front-end, consider frameworks like React or Vue for component-based design. On the backend, Node.js is popular for full-stack JavaScript, while Django or Laravel provide powerful MVC structures. Database decisions also matter—SQL (e.g., PostgreSQL) for structured data, NoSQL (e.g., MongoDB) for flexibility. Don't forget to consider community support, documentation, and future maintenance. A poor tech stack decision early on can lead to technical debt and costly rewrites.",
+    "author": "Tariq Hasan",
+    "date": "2025-06-22",
+    "imgUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?fit=crop&w=800&q=80"
+  },
+  {
+    "_id": "3",
+    "blogTitle": "Top 7 UI/UX Trends in 2025",
+    "description": "User expectations evolve rapidly, and 2025 brings a new wave of UI/UX trends. Micro-interactions make interfaces feel alive and responsive. Neumorphism and glassmorphism are influencing minimalist visual design. Dark mode remains a user favorite, offering both aesthetics and battery efficiency. Voice user interfaces are on the rise with smart assistants. Accessibility is now a key design priority, and AI-driven personalization is enhancing user journeys. Additionally, motion design helps guide attention and improve usability. Staying ahead of these trends can lead to higher engagement and user satisfaction.",
+    "author": "Farhana Islam",
+    "date": "2025-07-01",
+    "imgUrl": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?fit=crop&w=800&q=80"
+  },
+  {
+    "_id": "4",
+    "blogTitle": "Agile vs. Waterfall: Which Project Management Method Works Best?",
+    "description": "Agile and Waterfall offer different philosophies in project management. Waterfall is linear and structured, making it suitable for well-defined projects with fixed scopes. Agile, in contrast, is iterative and adaptive, ideal for fast-changing environments. Agile promotes collaboration, feedback loops, and continuous delivery. Waterfall excels in regulated industries or large-scale infrastructure projects where changes are costly. Choosing between them depends on your project type, team dynamics, client involvement, and risk tolerance. Often, a hybrid approach (like Agile-Waterfall) can combine the strengths of both models.",
+    "author": "Rakibul Alam",
+    "date": "2025-07-08",
+    "imgUrl": "https://i.ibb.co.com/gFT0C9m1/featured2.png"
+  },
+  {
+    "_id": "5",
+    "blogTitle": "Why Cybersecurity Should Be a Priority in Your Software Projects",
+    "description": "Cybersecurity is no longer optional in modern software development. With increasing data breaches, ransomware attacks, and privacy regulations, it's essential to design software with security in mind from the start. Implementing secure coding practices, regular vulnerability assessments, and user authentication systems can protect your application from threats. Encryption, role-based access, and logging are baseline requirements. Educating your team on social engineering and phishing is equally critical. Making cybersecurity a development priority not only builds user trust but also saves you from potential legal and financial losses.",
+    "author": "Meherun Nahar",
+    "date": "2025-07-10",
+    "imgUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?fit=crop&w=800&q=80"
+  }
+]

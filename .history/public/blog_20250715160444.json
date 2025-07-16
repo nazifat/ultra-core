@@ -1,0 +1,43 @@
+[
+  {
+    "_id": "1",
+    "blogTitle": "5 Reasons Your Business Needs Custom Software",
+    "description": "Discover why off-the-shelf solutions might be holding your company back and how custom software can streamline operations and improve ROI.",
+    "author": "Ayesha Rahman",
+    "date": "2025-06-15",
+    "imgUrl": "https://i.ibb.co.com/gFT0C9m1/featured2.png"
+  },
+  {
+    "_id": "2",
+    "blogTitle": "How to Choose the Right Tech Stack for Your Startup",
+    "description": "Learn how to evaluate front-end and back-end technologies that align with your product vision, scalability needs, and team expertise.",
+    "author": "Tariq Hasan",
+    "date": "2025-06-22",
+    "imgUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?fit=crop&w=800&q=80"
+  },
+  {
+    "_id": "3",
+    "blogTitle": "Top 7 UI/UX Trends in 2025",
+    "description": "From micro-interactions to dark mode, find out what UI/UX trends are shaping user behavior and product design this year.",
+    "author": "Farhana Islam",
+    "date": "2025-07-01",
+    "imgUrl": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?fit=crop&w=800&q=80"
+  },
+  {
+    "_id": "4",
+    "blogTitle": "Agile vs. Waterfall: Which Project Management Method Works Best?",
+    "description": "Explore the pros and cons of Agile and Waterfall methodologies and when to use each for maximum efficiency and collaboration.",
+    "author": "Rakibul Alam",
+    "date": "2025-07-08",
+    "imgUrl": "https://i.ibb.co.com/gFT0C9m1/featured2.png"
+  },
+  {
+    "_id": "5",
+    "blogTitle": "Why Cybersecurity Should Be a Priority in Your Software Projects",
+    "description": "Understand the growing risks of cyber threats and learn best practices for securing your applications from day one.",
+    "author": "Meherun Nahar",
+    "date": "2025-07-10",
+    "imgUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?fit=crop&w=800&q=80"
+
+  }
+]
