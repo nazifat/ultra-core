@@ -7,13 +7,13 @@ import { Helmet } from 'react-helmet-async';
 const HowItWorks = () => {
     return (
         <div>
-            <Helmet>
+             <Helmet>
                 <title>How It Works | Ultracore Creatives</title>
                 <meta name="description" content="Welcome to our homepage" />
             </Helmet>
-            <HeaderBanner
-                title="Technology Stack"
-                img="https://i.ibb.co/YBRfB4dz/huy-phan-u-Wb-Dl-Ej-Gf-E4-unsplash.jpg"></HeaderBanner>
+            <HeaderBanner 
+            title="Technology Stack"
+            img="https://i.ibb.co/YBRfB4dz/huy-phan-u-Wb-Dl-Ej-Gf-E4-unsplash.jpg"></HeaderBanner>
             <TechnologyStack></TechnologyStack>
             <IndustriesWeServe></IndustriesWeServe>
 

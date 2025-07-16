@@ -1,25 +1,24 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import CustomHeader from '../../../Components/CustomHeader/CustomHeader';
 import ArrowButton from '../../../Components/ArrowButton/ArrowButton';
 import { Link } from 'react-router-dom';
 
+ const [blogData, setBlogdata] = useState([])
+
+    useEffect(() => {
+        fetch('/blog.json')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                setBlogdata(data)
+            })
+            .catch(error => {
+                console.error(error);
+            })
+    }, [])
 
 
 const Featured = () => {
-
-  const [blogData, setBlogdata] = useState([])
-
-  useEffect(() => {
-    fetch('/blog.json')
-      .then(res => res.json())
-      .then(data => {
-        console.log(data)
-        setBlogdata(data)
-      })
-      .catch(error => {
-        console.error(error);
-      })
-  }, [])
 
   return (
     <div className='lg:my-10'>
@@ -48,7 +47,7 @@ const Featured = () => {
                 </h2>
               </Link>
               <div className="flex justify-end mt-auto">
-                <ArrowButton btnText="Read More" className="m-0 p-0" url={`/blog/${blog._id}`} />
+                <ArrowButton btnText="Read More" className="m-0 p-0"  url={`/blog/${blog._id}`}/>
               </div>
             </div>
           </div>

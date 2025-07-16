@@ -23,6 +23,8 @@ const servicesData = [
     {
         title: 'Cloud & DevOps',
         image: 'https://i.ibb.co.com/4ZFPnfhK/cloud.png',
+
+
         points: [
             'Streamline your infrastructure, reduce downtime, and deploy with confidence using modern cloud-native architectures and DevOps practices.',
         ],

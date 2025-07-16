@@ -16,7 +16,7 @@ const Home = () => {
     return (
         <div className='w-full'>
             <Helmet>
-                <title>Home | Ultracore Creatives</title>
+                <title>Home | My Website</title>
                 <meta name="description" content="Welcome to our homepage" />
             </Helmet>
 

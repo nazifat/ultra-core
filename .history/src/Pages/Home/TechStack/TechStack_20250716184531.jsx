@@ -3,6 +3,7 @@
 
 import React from 'react';
 import CustomHeader from '../../../Components/CustomHeader/CustomHeader';
+// (your image imports here)
 
 const techStackData = {
     Backend: [

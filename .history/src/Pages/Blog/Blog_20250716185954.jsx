@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import HeaderBanner from '../../Components/HeaderBanner/HeaderBanner';
 import BlogCard from './BlogCard';
-import { Helmet } from 'react-helmet-async';
 
 
 const Blog = () => {

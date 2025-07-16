@@ -3,7 +3,6 @@ import CustomHeader from '../../Components/CustomHeader/CustomHeader';
 import { FaCheck } from 'react-icons/fa';
 import LineDivider from '../../Components/Divider/LineDivider';
 import HeaderBanner from '../../Components/HeaderBanner/HeaderBanner';
-import { Helmet } from 'react-helmet-async';
 
 const CaseStudies = () => {
     const features = [

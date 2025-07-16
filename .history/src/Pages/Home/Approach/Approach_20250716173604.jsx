@@ -16,7 +16,7 @@ const approachData = [
     title: "UX Driven Engineering",
     description:
       "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
-    image: "https://i.ibb.co.com/Nnfr9H7h/approach1.png",
+    image: approach1,
     gradient: "from-[#29272E] to-[#27272E]",
   },
   {
@@ -24,7 +24,7 @@ const approachData = [
     title: "Developing Shared Understanding",
     description:
       "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
-    image: "https://i.ibb.co.com/zVqh11nn/approach2.png",
+    image: approach2,
     gradient: "from-[#68DBF2] to-[#509CF5]",
   },
   {
@@ -32,7 +32,7 @@ const approachData = [
     title: "Proven Experience and Expertise",
     description:
       "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
-    image: "https://i.ibb.co.com/fVKzRD1w/approach3.png",
+    image: approach3,
     gradient: "from-[#FF92AE] to-[#FF3D9A]",
   },
   {
@@ -40,7 +40,7 @@ const approachData = [
     title: "Security & Intellectual Property (IP)",
     description:
       "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
-    image: "https://i.ibb.co.com/0WLTBgH/approach4.png",
+    image: approach4,
     gradient: "from-[#67E9F1] to-[#24E795]",
   },
   {
@@ -48,7 +48,7 @@ const approachData = [
     title: "Code Reviews",
     description:
       "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
-    image: "https://i.ibb.co.com/8gTvSNMt/approach5.png",
+    image: approach5,
     gradient: "from-[#FFEF5E] to-[#F7936F]",
   },
   {
@@ -56,7 +56,7 @@ const approachData = [
     title: "Quality Assurance & Testing",
     description:
       "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
-    image: "https://i.ibb.co.com/MyKfDx8b/approach6.png",
+    image: approach6,
     gradient: "from-[#F76680] to-[#57007B]",
   },
 ];
@@ -82,7 +82,7 @@ const Approach = () => {
               </div>
               <div className='flex-1 text-left space-y-3'>
                 <h2 className="card-title text-[#1A202C]">{item.title}</h2>
-                <p className='text-[#4A5568] text-justify'>{item.description}</p>
+                <p className='text-[#4A5568]'>{item.description}</p>
               </div>
             </div>
           </div>

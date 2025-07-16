@@ -22,14 +22,15 @@ const servicesData = [
     },
     {
         title: 'Cloud & DevOps',
-        image: 'https://i.ibb.co.com/4ZFPnfhK/cloud.png',
+        image: 'https://i.ibb.co.com/BK6pc359/uiux.png',
+
         points: [
             'Streamline your infrastructure, reduce downtime, and deploy with confidence using modern cloud-native architectures and DevOps practices.',
         ],
     },
     {
         title: 'UI/UX Design',
-        image: 'https://i.ibb.co.com/BK6pc359/uiux.png',
+        image: 'https://i.ibb.co.com/cKqS9P1P/cyber.png',
         points: [
             'Human-centered design to deliver intuitive, engaging digital experiences that delight users and meet business goals.',
         ],

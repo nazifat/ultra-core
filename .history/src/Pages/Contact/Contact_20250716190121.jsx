@@ -4,7 +4,6 @@ import CustomButton from '../../Components/CustomButton/CustomButton';
 import HeaderBanner from '../../Components/HeaderBanner/HeaderBanner';
 import LineDivider from '../../Components/Divider/LineDivider';
 import { FiMail, FiPhone, FiMapPin } from 'react-icons/fi';
-import { Helmet } from 'react-helmet-async';
 
 const Contact = () => {
     return (

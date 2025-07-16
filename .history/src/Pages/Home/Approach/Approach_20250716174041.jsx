@@ -82,7 +82,7 @@ const Approach = () => {
               </div>
               <div className='flex-1 text-left space-y-3'>
                 <h2 className="card-title text-[#1A202C]">{item.title}</h2>
-                <p className='text-[#4A5568] text-justify'>{item.description}</p>
+                <p className='text-[#4A5568]'>{item.description}</p>
               </div>
             </div>
           </div>

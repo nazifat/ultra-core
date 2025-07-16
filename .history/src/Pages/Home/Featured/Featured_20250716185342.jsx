@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import CustomHeader from '../../../Components/CustomHeader/CustomHeader';
 import ArrowButton from '../../../Components/ArrowButton/ArrowButton';
 import { Link } from 'react-router-dom';
