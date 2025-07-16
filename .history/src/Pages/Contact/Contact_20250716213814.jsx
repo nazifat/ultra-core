@@ -24,7 +24,7 @@ const Contact = () => {
                         Let’s build something great together.
                     </p>
                 </div>
-                <div className="px-4 text-gray-800 flex flex-col md:flex-row-reverse mb-10 justify-between w-full items-center md:items-start gap-20">
+                <div className="px-4 text-gray-800 flex flex-col md:flex-row mb-10 justify-between w-full items-center md:items-start gap-20">
 
                     <div className='w-full'>
                         {/* Contact Form */}

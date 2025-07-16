@@ -12,7 +12,6 @@ import Hire from '../../Pages/Hire/Hire'
 import HowItWorks from '../../Pages/HowItWorks/HowItWorks'
 import SingleBlogPage from "../../Pages/Blog/SingleBlogPage";
 import Contact from "../../Pages/Contact/Contact";
-import WhyUltracore from "../../Pages/WhyUltracore/WhyUltracore";
 
 
 export const router = createBrowserRouter([
@@ -36,7 +35,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/why-ultracore",
-        element: <WhyUltracore></WhyUltracore>
+        element: <CaseStudies></CaseStudies>
       },
       {
         path: "/blog",
