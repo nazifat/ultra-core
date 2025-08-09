@@ -26,6 +26,7 @@ const Banner = () => {
                         <CustomButton
                             className="justify-center lg:justify-start"
                             btnText="Let's work Together"
+                            url="contact"
                         />
 
                         {/* <CustomButton justifyPosition="start" btnText="Let's work Together"></CustomButton> */}

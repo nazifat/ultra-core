@@ -7,24 +7,24 @@ import { FreeMode, Pagination } from 'swiper/modules';
 
 const servicesData = [
     {
-        title: 'Staff Augmentation',
+        title: 'Custom Software Development',
         image: 'https://i.ibb.co.com/Z6r8QtGn/aiml.png',
         points: [
-            'Looking for top-tier IT staff augmentation services? We offer comprehensive solutions and highly skilled personnel to help you grow and strengthen your team.',
+            'We create tailored software solutions to meet unique business needs, enhancing efficiency, scalability, and performance.',
         ],
     },
     {
-        title: 'Digital Product Engineering',
+        title: 'Web Application Design',
         image: 'https://i.ibb.co.com/8Lm3b3QH/data.png',
         points: [
-            'Design, develop, and deploy robust software platforms, mobile apps, and enterprise systems tailored to modern business needs.',
+            'Design and develop responsive, user-friendly web apps optimized for performance, functionality, and seamless user experience.',
         ],
     },
     {
-        title: 'Cloud & DevOps',
+        title: 'Mobile App Solutions',
         image: 'https://i.ibb.co.com/4ZFPnfhK/cloud.png',
         points: [
-            'Streamline your infrastructure, reduce downtime, and deploy with confidence using modern cloud-native architectures and DevOps practices.',
+            'Build cross-platform mobile applications delivering smooth performance, intuitive design, and engaging customer experiences.',
         ],
     },
     {
@@ -42,24 +42,24 @@ const servicesData = [
         ],
     },
     {
-        title: 'Custom Software Development',
+        title: 'Enterprise Resource Planning (ERP)',
         image: 'https://i.ibb.co.com/4ZFPnfhK/cloud.png',
         points: [
-            "Whether it's B2B platforms, internal tools, or customer-facing portals, we build scalable and secure custom software.",
+            "Develop and implement ERP solutions for efficient management of finance, operations, inventory, and human resources.",
         ],
     },
     {
-        title: 'Emerging Tech (IoT, Blockchain, AR/VR)',
+        title: 'Cybersecurity Solutions',
         image: 'https://i.ibb.co.com/Z6r8QtGn/aiml.png',
         points: [
-            'Experiment and innovate with the latest technology to future-proof your business.',
+            'Protect digital assets through security audits, penetration testing, encryption, and proactive threat monitoring.',
         ],
     },
     {
-        title: 'Digital Survey',
+        title: 'API Development & Integration',
         image: 'https://i.ibb.co.com/BK6pc359/uiux.png',
         points: [
-            'Collect actionable insights through tailored digital surveys to enhance customer experience and drive informed decision-making.',
+            'Design and integrate robust APIs enabling secure, smooth communication between different systems, apps, and platforms.',
         ],
     },
 ];

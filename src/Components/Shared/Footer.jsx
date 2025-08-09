@@ -27,8 +27,8 @@ const Footer = () => {
                 </nav>
                 <nav className='flex-1 justify-center'>
                     <h6 className="">Contact Us</h6>
-                    <p className="flex items-center gap-2"><FaPhoneAlt />+880 1737783615</p>
-                    <p className="flex items-center gap-2"><FaEnvelope /> info@ultracorecreatives.com</p>
+                    <p className="flex items-center gap-2"><FaPhoneAlt />+880 1991 909060</p>
+                    <p className="flex items-center gap-2"><FaEnvelope /> chairman@ultracorecreatives.com</p>
                     <p className="flex items-center gap-2"><FaLocationDot /> Dhaka, Bangladesh</p>
                 </nav>
                 <nav className='flex-1 justify-center flex items-center justify-center mt-10'>

@@ -100,16 +100,16 @@ const Contact = () => {
                             <div className="flex items-center gap-2 text-gray-700">
                                 <FiMail className="text-purple-500 text-lg" />
                                 <a
-                                    href="mailto:hello@ultracorecreatives.com"
+                                    href="mailto:chairman@ultracorecreatives.com"
                                     className="text-purple-500 hover:underline"
                                 >
-                                    hello@ultracorecreatives.com
+                                    chairman@ultracorecreatives.com
                                 </a>
                             </div>
 
                             <div className="flex items-center gap-2 text-gray-700">
                                 <FiPhone className="text-purple-500 text-lg" />
-                                <span>+880 1737 783615</span>
+                                <span>+880 1991 909060</span>
                             </div>
                         </div>
                     </div>
