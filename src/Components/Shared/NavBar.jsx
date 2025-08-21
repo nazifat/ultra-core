@@ -11,7 +11,7 @@ const NavBar = () => {
         <li className='custom-navbar'><NavLink to="/about">About Us</NavLink></li>
         <li className='custom-navbar'><NavLink to="/services">Services</NavLink></li>
         <li className='custom-navbar'><NavLink to="/why-ultracore">Why Ultracore</NavLink></li>
-        <li className='custom-navbar'><NavLink to="/blog">Blog</NavLink></li>
+        {/* <li className='custom-navbar'><NavLink to="/blog">Blog</NavLink></li> */}
         <li className='custom-navbar'><NavLink to="/how-it-works">How it Works</NavLink></li>
         <li className='custom-navbar'> <NavLink to="/hire">Hire</NavLink></li>
         <li className='custom-navbar'> <NavLink to="/contact">Contact</NavLink></li>
@@ -21,7 +21,7 @@ const NavBar = () => {
             <div className="navbar-start">
                 <div className="dropdown ">
                     <div tabIndex={0} role="button" className="btn btn-lg bg-gray-100 border-0 mx-2  lg:hidden  ">
-                    <MdOutlineMenu  className='text-gray-600'/>
+                        <MdOutlineMenu className='text-gray-600' />
                     </div>
                     <ul
                         // tabIndex={0}
@@ -29,7 +29,18 @@ const NavBar = () => {
                         {links}
                     </ul>
                 </div>
-                <NavLink className=" text-xl" to='/'><img src="https://i.ibb.co/dwjM405d/logo.png" alt="" /></NavLink>
+                <NavLink className="text-xs" to='/'>
+                    {/* <img
+                        src="https://i.ibb.co.com/9kqgcxMx/Vibrant-Minimalist-Wordmark-Logo-removebg-preview.png"
+                        alt="Logo"
+                        style={{ width: '100%', height: 'auto', maxWidth: '100px', display: 'block' }}
+                    /> */}
+                    <img
+                        src={ logo }
+                        alt="Logo"
+                        style={{ width: '60%', height: 'auto', maxWidth: '100px', display: 'block' }}
+                    />
+                </NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -38,11 +49,11 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-            <CustomButton
-                            className="justify-end"
-                            btnText="Let's work Together"
-                            url="contact"
-                        />
+                <CustomButton
+                    className="justify-end"
+                    btnText="Let's work Together"
+                    url="contact"
+                />
                 {/* <CustomButton justifyPosition="end" btnText="Let's work Together"></CustomButton> */}
 
             </div>

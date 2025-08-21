@@ -8,7 +8,7 @@ import { Helmet } from 'react-helmet-async';
 
 const Contact = () => {
     return (
-        <div className='py-10'>
+        <div>
             <Helmet>
                 <title>Contact | Ultracore Creatives</title>
                 <meta name="description" content="Welcome to our homepage" />

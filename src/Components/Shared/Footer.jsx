@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
             <footer className="lg:px-20 custom-footer footer  sm:footer-horizontal text-gray-600 text-neutral-content p-10  flex md:flex-row flex-col md:justify-evenly md:p-6 " >
                 <nav className='flex-[1] min-w-[200px]' >
-                    <NavLink to="/"> <img src="https://i.ibb.co/dwjM405d/logo.png" alt="" /></NavLink>
+                    <NavLink to="/"> <img src={logo} style={{ width: '100%', height: 'auto', maxWidth: '100px', display: 'block' }} alt="" /></NavLink>
 
                     <p className='text-left'>At our software company, we combine creativity and technology to deliver innovative solutions. Our collaborative team transforms bold ideas into impactful software that drives success for businesses and users alike
                     </p>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <NavLink to="/services">Services</NavLink>
                     <NavLink to="/why-ultracore">Why Ultracore</NavLink>
                     <NavLink to="/how-it-works">How it Works</NavLink>
-                    <NavLink to="/blog">Blog</NavLink>
+                    {/* <NavLink to="/blog">Blog</NavLink> */}
                     <NavLink to="/hire">Career</NavLink>
                     <NavLink to="/services">Areas We Serve</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
@@ -56,7 +56,7 @@ const Footer = () => {
 
                 <LineDivider></LineDivider>
             <aside className='lg:px-20'> 
-                <p className='text-center text-[#718096] pb-5'> © {new Date().getFullYear()}  Ultracore Creatives. All rights reserved.</p>
+                <p className='text-center text-[#718096] pb-5'> © {new Date().getFullYear()}  Ultracore Creatives Limited. All rights reserved.</p>
             </aside>
 
         </div>

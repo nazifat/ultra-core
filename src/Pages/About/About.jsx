@@ -10,9 +10,9 @@ import LineDivider from '../../Components/Divider/LineDivider';
 import { Helmet } from 'react-helmet-async';
 const About = () => {
     return (
-    <div>ˇ
+    <div>
          <Helmet>
-                <title>About | Ultracore Creatives</title>
+                <title>About | Ultracore Creatives Limited</title>
                 <meta name="description" content="Welcome to our homepage" />
             </Helmet>
         <AboutBanner></AboutBanner>

@@ -14,7 +14,7 @@ const ContactForDetails = () => {
                     <TfiHeadphoneAlt className="text-4xl text-gray-100" />
                 </div>
                 <p className='text-gray-100 text-lg font-medium'>Call Us For Any inquiry</p>
-                <p className='text-gray-100  text-sm md:text-xl font-semibold tracking-wide'>+880 1737 783 615</p>
+                <p className='text-gray-100  text-sm md:text-xl font-semibold tracking-wide'>+880 1991 909060</p>
 
             </div>
 

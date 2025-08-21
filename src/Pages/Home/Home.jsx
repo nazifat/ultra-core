@@ -63,9 +63,9 @@ const Home = () => {
             </div>
             <HowItWorks></HowItWorks>
 
-            <div className=' w-full left-1/2 right-1/2 lg:-mt-[1.5%]' >
+            {/* <div className=' w-full left-1/2 right-1/2 lg:-mt-[1.5%]' >
                 <Featured></Featured>
-            </div>
+            </div> */}
 
 
             <FooterBanner></FooterBanner>
