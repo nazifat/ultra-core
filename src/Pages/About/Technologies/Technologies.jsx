@@ -3,7 +3,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 import { easeBackIn, easeBounceIn } from "d3-ease";
 const Technologies = () => {
     return (
-        <div className='flex gap-20 flex-col md:flex-row md:text-left text-center justify-center items-center md:w-[90%] p-10 m-10 md:mx-auto'>
+        <div className='flex gap-20 flex-col md:flex-row md:text-left lg:text-center lg:justify-center lg:items-center md:w-[90%] px-5 lg:p-10 lg:m-10 md:mx-auto'>
             <div className="md:w-1/2 space-y-5">
                 <h2
                     className="text-xl md:text-4xl font-bold text-gray-800"
@@ -16,19 +16,19 @@ const Technologies = () => {
 
                 <span className='font-thin text-gray-500 text-base flex gap-2 items-center'>
                     <FaCheck className="text-purple-600 " />
-                    <span className="font-bold">Innovation First:</span> Always evolving, always learning.
+                    <p className="text-left"><span className="font-bold">Innovation First:</span> Always evolving, always learning.</p>
                 </span>
                 <span className='font-thin text-gray-500 text-base flex gap-2 items-center'>
                     <FaCheck className="text-purple-600 " />
-                    <span className="font-bold">Integrity:</span>Delivering what we promise.
+                    <p className="text-left"><span className="font-bold">Integrity:</span> Delivering what we promise.</p>
                 </span>
                 <span className='font-thin text-gray-500 text-base flex gap-2 items-center'>
                     <FaCheck className="text-purple-600 " />
-                    <span className="font-bold">  Collaboration: </span> Working across cultures and time zones.
+                    <p className="text-left"><span className="font-bold">  Collaboration: </span> Working across cultures and time zones.</p>
                 </span>
                 <span className='font-thin text-gray-500 text-base flex gap-2 items-center'>
                     <FaCheck className="text-purple-600 " />
-                    <span className="font-bold"> Excellence: </span> Going the extra mile to ensure quality.
+                    <p className="text-left"><span className="font-bold"> Excellence: </span> Going the extra mile to ensure quality.</p>
                 </span>
             </div>
             <div className="md:w-1/2">

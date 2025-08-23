@@ -24,7 +24,7 @@ const Contact = () => {
                         Let’s build something great together.
                     </p>
                 </div>
-                <div className="px-4 text-gray-800 flex flex-col md:flex-row-reverse mb-10 justify-between w-full items-center md:items-start gap-20">
+                <div className="px-4 text-gray-800 flex flex-col md:flex-row-reverse mb-10 justify-between w-full items-center md:items-start lg:gap-20">
 
                     <div className='w-full'>
                         {/* Contact Form */}
@@ -88,7 +88,7 @@ const Contact = () => {
 
 
                     {/* Office Info */}
-                    <div className="mt-16 border-t pt-10 text-center text-gray-800 w-full md:w-[60%]">
+                    <div className="lg:mt-16 border-t pt-10 text-center text-gray-800 w-full md:w-[60%]">
                         <h3 className="text-2xl font-bold mb-4">Our Offices</h3>
 
                         <div className="flex flex-col items-center gap-4">

@@ -8,13 +8,13 @@ const HowItWorks = () => {
             <CustomHeader heading='How development'
                 subHeading='through Alcaline works'></CustomHeader>
 
-            <div>
+            <div className='hidden lg:block'>
                 <div className='flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:gap-20 lg:my-10   lg:mr-[10%]'>
                     <div className='border rounded-lg border-[#E7DAED] p-5 text-left'>
                         <h1 className='text-lg font-bold text-[#1A202C] mb-2'> <span className=' mr-1 text-xl font-bold bg-gradient-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent'>#1 </span> Assemble the right team</h1>
                         <p className='text-[#718096] text-[14px]'>We handle all aspects of vetting and choosing the right team that you don't have the time, expertise, or desire to do.</p>
                     </div>
-                    <div className='border rounded-lg border-[#E7DAED] p-5  text-left'>
+                    <div className='border rounded-lg border-[#E7DAED] p-5 text-left'>
                         <h1 className='text-lg font-bold text-[#1A202C] mb-2'> <span className=' mr-1 text-xl font-bold bg-gradient-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent'>#3 </span> Tech architecture</h1>
                         <p className='text-[#718096] text-[14px]'>We break monolithic apps into microservices. Decoupling the code allows teams to move faster and more independently</p>
                     </div>
@@ -48,15 +48,48 @@ const HowItWorks = () => {
 
 
                 <div className='flex flex-col lg:flex-row space-y-5 lg:gap-20 lg:space-y-0 my-10 lg:ml-[10%]'>
-                    <div className='border rounded-lg border-[#E7DAED] p-5   text-left'>
+                    <div className='border rounded-lg border-[#E7DAED] p-5 text-left'>
                         <h1 className='text-lg font-bold text-[#1A202C] mb-2'> <span className=' mr-1 text-xl font-bold bg-gradient-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent'>#2 </span> Sprint planning</h1>
                         <p className='text-[#718096] text-[14px]'>Sprint roadmap is a collective planning effort. Team members collaborate to clarify items and ensure shared understanding.</p>
                     </div>
-                    <div className='border rounded-lg border-[#E7DAED] p-5   text-left'>
+                    <div className='border rounded-lg border-[#E7DAED] p-5 text-left'>
                         <h1 className='text-lg font-bold text-[#1A202C] mb-2'> <span className=' mr-1 text-xl font-bold bg-gradient-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent'>#4 </span> Standups & weekly demos</h1>
                         <p className='text-[#718096] text-[14px]'>Standups, weekly demos, and weekly reviews make sure everyone is on the same page and can raise their concerns.</p>
                     </div>
-                    <div className='border rounded-lg border-[#E7DAED] p-5   text-left'>
+                    <div className='border rounded-lg border-[#E7DAED] p-5 text-left'>
+                        <h1 className='text-lg font-bold text-[#1A202C] mb-2'> <span className=' mr-1 text-xl font-bold bg-gradient-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent'>#6 </span> Iterative delivery</h1>
+                        <p className='text-[#718096] text-[14px]'>We divide the implementation process into several checkpoints rather than a single deadline.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div className='block lg:hidden'>
+                <div className='flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:gap-20 lg:my-10   lg:mr-[10%]'>
+                    <div className='border rounded-lg border-[#E7DAED] p-5 text-left'>
+                        <h1 className='text-lg font-bold text-[#1A202C] mb-2'> <span className=' mr-1 text-xl font-bold bg-gradient-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent'>#1 </span> Assemble the right team</h1>
+                        <p className='text-[#718096] text-[14px]'>We handle all aspects of vetting and choosing the right team that you don't have the time, expertise, or desire to do.</p>
+                    </div>
+
+                    <div className='border rounded-lg border-[#E7DAED] p-5 text-left'>
+                        <h1 className='text-lg font-bold text-[#1A202C] mb-2'> <span className=' mr-1 text-xl font-bold bg-gradient-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent'>#2 </span> Sprint planning</h1>
+                        <p className='text-[#718096] text-[14px]'>Sprint roadmap is a collective planning effort. Team members collaborate to clarify items and ensure shared understanding.</p>
+                    </div>
+
+                    <div className='border rounded-lg border-[#E7DAED] p-5 text-left'>
+                        <h1 className='text-lg font-bold text-[#1A202C] mb-2'> <span className=' mr-1 text-xl font-bold bg-gradient-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent'>#3 </span> Tech architecture</h1>
+                        <p className='text-[#718096] text-[14px]'>We break monolithic apps into microservices. Decoupling the code allows teams to move faster and more independently</p>
+                    </div>
+                    <div className='border rounded-lg border-[#E7DAED] p-5 text-left'>
+                        <h1 className='text-lg font-bold text-[#1A202C] mb-2'> <span className=' mr-1 text-xl font-bold bg-gradient-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent'>#4 </span> Standups & weekly demos</h1>
+                        <p className='text-[#718096] text-[14px]'>Standups, weekly demos, and weekly reviews make sure everyone is on the same page and can raise their concerns.</p>
+                    </div>
+                    <div className='border rounded-lg border-[#E7DAED] p-5 text-left'>
+                        <h1 className='text-lg font-bold  text-[#1A202C] mb-2'> <span className=' mr-1 text-xl font-bold bg-gradient-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent'>#5 </span> Code reviews</h1>
+                        <p className='text-[#718096] text-[14px]'>Code reviews before release help detect issues like memory leaks, file leaks, performance signs, and general bad smells</p>
+                    </div>
+
+                    <div className='border rounded-lg border-[#E7DAED] p-5 text-left'>
                         <h1 className='text-lg font-bold text-[#1A202C] mb-2'> <span className=' mr-1 text-xl font-bold bg-gradient-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent'>#6 </span> Iterative delivery</h1>
                         <p className='text-[#718096] text-[14px]'>We divide the implementation process into several checkpoints rather than a single deadline.</p>
                     </div>

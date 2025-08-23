@@ -4,13 +4,13 @@ import AboutHeader from '../AboutHeader/AboutHeader';
 const ExpertTeam = () => {
     return (
         <div
-            className="relative bg-fixed bg-center bg-cover bg-no-repeat text-white p-10 my-10"
+            className="relative bg-fixed bg-center bg-cover bg-no-repeat text-white py-5 lg:p-10 lg:my-10"
             style={{
                 backgroundImage: `url('https://i.ibb.co/XZfnhc5r/annie-spratt-MCh-SQHx-GZr-Q-unsplash.jpg')`,
             }}
         > <div className="absolute inset-0 bg-[#011031] opacity-60 z-0" />
             <div className="relative z-10">
-                <p className='uppercase text-[#8052AD] font-thin md:mb-2'>Our expert team</p>
+                <p className='uppercase text-red-600 font-bold md:mb-2'>Our expert team</p>
                 <h2 className='md:text-5xl text-xl font-bold leading-[3] text-gray-100 '>
                     We have world expert team</h2>
 

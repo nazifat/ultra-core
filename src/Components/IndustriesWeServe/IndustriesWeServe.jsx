@@ -13,7 +13,7 @@ const industries = [
 const IndustriesWeServe = () => {
   return (
     <div
-      className="w-full py-16 px-4 md:px-10 bg-fixed bg-cover bg-center"
+      className="w-full lg:py-16 px-4 md:px-10 bg-fixed bg-cover bg-center"
       style={{
         backgroundImage: 'url("https://i.ibb.co/Vcx7g9wW/nikola-johnny-mirkovic-HNsytir-ZYQg-unsplash.jpg")',
       }}

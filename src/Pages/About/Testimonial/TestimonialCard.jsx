@@ -3,7 +3,7 @@ import { IoChatbubblesOutline } from "react-icons/io5";
 
 const TestimonialCard = ({ img, text, name }) => {
     return (
-        <div className="overflow-hidden flex flex-col md:flex-row shadow-lg border rounded p-6 gap-6 justify-between items-center">
+        <div className="overflow-hidden flex flex-col md:flex-row shadow-lg border rounded p-6 gap-6 mb-5 lg:mb-0 justify-between items-center">
             <figure className="w-full md:w-[300px]">
                 <img
                     src={img}

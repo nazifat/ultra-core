@@ -10,12 +10,12 @@ import TestimonialCard from './TestimonialCard';
 
 const Testimonial = () => {
     return (
-        <div>
+        <div className='pt-5'>
             <div className='text-center'>
                 <AboutHeader header="Testimonial" subheader="100+ satisfied clients worldwide"></AboutHeader>
 
             </div>
-            <div className='m-10 p-5'>
+            <div className='lg:m-10 p-5 pb-0'>
                 <Swiper
                     spaceBetween={30}
                     pagination={{ clickable: true }}

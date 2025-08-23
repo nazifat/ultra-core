@@ -62,7 +62,7 @@ const servicesData = [
 
 const ServicesData = () => {
     return (
-        <div className="service-area grid md:grid-cols-3 grid-cols-1 px-10 my-10 gap-5">
+        <div className="service-area grid md:grid-cols-3 grid-cols-1 lg:px-10 lg:my-10 gap-5">
             {servicesData.map((service, idx) => (
                 <div key={idx} className="service-card hover-card bg-[#fff] shadow-sm rounded-lg">
                     <div>

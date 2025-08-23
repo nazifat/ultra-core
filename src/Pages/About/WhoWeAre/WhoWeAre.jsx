@@ -5,12 +5,12 @@ import AboutHeader from '../AboutHeader/AboutHeader';
 const WhoWeAre = () => {
     return (
         <div className='flex-col md:flex-row justify-center  flex my-10 items-center overflow-hidden w-full '>
-            <div className='md:flex-row flex-col flex gap-10 p-10  md:w-[50%] w-full'>
+            <div className='md:flex-row flex-col flex gap-10 lg:p-10 md:w-[50%] w-full'>
                 <img
-                    className='shadow-lg rounded  w-[300px] h-[500px] object-cover'
+                    className='shadow-lg rounded  w-[300px] h-[500px] object-cover hidden lg:block'
                     src="https://i.ibb.co/XZfnhc5r/annie-spratt-MCh-SQHx-GZr-Q-unsplash.jpg" alt="" />
                 <img
-                    className='shadow-lg rounded w-[300px] h-[500px] object-cover md:mt-10 mt-2'
+                    className='shadow-lg rounded w-[300px] h-[500px] object-cover md:mt-10 mt-2 hidden lg:block'
                     src="https://i.ibb.co/7dvD2PWM/pexels-fauxels-3183153.jpg" alt="" />
             </div>
             <div className='md:text-left text-center  md:px-10 md:mx-10 px-2 mx-2  md:w-[40%] mx-auto w-full font-inter'>

@@ -5,8 +5,8 @@ import CustomButton from '../../../Components/CustomButton/CustomButton';
 const Banner = () => {
     return (
         <div>
-            <div className="lg:p-20 text-gray-700 text-left">
-                <div className="flex flex-col items-center lg:flex-row-reverse justify-between lg:px-0 px-10 pb-10 lg:gap-10">
+            <div className="lg:px-20 text-gray-700 text-left">
+                <div className="flex flex-col items-center lg:flex-row-reverse justify-between lg:px-0 px-5 pb-10 lg:gap-10">
                     <img
                         src="https://i.ibb.co.com/d4XnFFB8/Hero-Wrapper-image.png"
                         className="rounded-lg"

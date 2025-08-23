@@ -4,61 +4,63 @@ import logo from '../../assets/images/logo.png'
 import CustomButton from '../CustomButton/CustomButton';
 import { MdOutlineMenu } from "react-icons/md";
 
-
 const NavBar = () => {
+  const links = <>
+    <li className='custom-navbar'><NavLink to="/about">About Us</NavLink></li>
+    <li className='custom-navbar'><NavLink to="/services">Services</NavLink></li>
+    <li className='custom-navbar'><NavLink to="/why-ultracore">Why Ultracore</NavLink></li>
+    <li className='custom-navbar'><NavLink to="/how-it-works">How it Works</NavLink></li>
+    <li className='custom-navbar'><NavLink to="/hire">Hire</NavLink></li>
+    <li className='custom-navbar'><NavLink to="/contact">Contact</NavLink></li>
+  </>;
 
-    const links = <>
-        <li className='custom-navbar'><NavLink to="/about">About Us</NavLink></li>
-        <li className='custom-navbar'><NavLink to="/services">Services</NavLink></li>
-        <li className='custom-navbar'><NavLink to="/why-ultracore">Why Ultracore</NavLink></li>
-        {/* <li className='custom-navbar'><NavLink to="/blog">Blog</NavLink></li> */}
-        <li className='custom-navbar'><NavLink to="/how-it-works">How it Works</NavLink></li>
-        <li className='custom-navbar'> <NavLink to="/hire">Hire</NavLink></li>
-        <li className='custom-navbar'> <NavLink to="/contact">Contact</NavLink></li>
-    </>
-    return (
-        <div className="navbar w-full shadow">
-            <div className="navbar-start">
-                <div className="dropdown ">
-                    <div tabIndex={0} role="button" className="btn btn-lg bg-gray-100 border-0 mx-2  lg:hidden  ">
-                        <MdOutlineMenu className='text-gray-600' />
-                    </div>
-                    <ul
-                        // tabIndex={0}
-                        className="menu menu-md dropdown-content bg-white z-1 mt-3 w-52 p-5 shadow flex ">
-                        {links}
-                    </ul>
-                </div>
-                <NavLink className="text-xs" to='/'>
-                    {/* <img
-                        src="https://i.ibb.co.com/9kqgcxMx/Vibrant-Minimalist-Wordmark-Logo-removebg-preview.png"
-                        alt="Logo"
-                        style={{ width: '100%', height: 'auto', maxWidth: '100px', display: 'block' }}
-                    /> */}
-                    <img
-                        src={ logo }
-                        alt="Logo"
-                        style={{ width: '60%', height: 'auto', maxWidth: '100px', display: 'block' }}
-                    />
-                </NavLink>
-            </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
-                    {links}
+  const closeDropdown = () => {
+    if (document.activeElement && document.activeElement instanceof HTMLElement) {
+      document.activeElement.blur(); // leaves focus-within, DaisyUI closes
+    }
+  };
 
-                </ul>
-            </div>
-            <div className="navbar-end">
-                <CustomButton
-                    className="justify-end"
-                    btnText="Let's work Together"
-                    url="contact"
-                />
-                {/* <CustomButton justifyPosition="end" btnText="Let's work Together"></CustomButton> */}
+  return (
+    <div className="navbar w-full shadow">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <div tabIndex={0} role="button" className="btn btn-lg bg-gray-100 border-0 mx-2 lg:hidden">
+            <MdOutlineMenu className='text-gray-600' />
+          </div>
 
-            </div>
+          <ul
+            tabIndex={0}
+            className="menu menu-md dropdown-content bg-white z-[1] mt-3 w-52 p-5 shadow flex"
+            onClickCapture={closeDropdown}   // <-- closes after any item click
+          >
+            {links}
+          </ul>
         </div>
-    );
+
+        <NavLink className="text-xs" to='/'>
+          <img
+            src={logo}
+            alt="Logo"
+            style={{ width: '60%', height: 'auto', maxWidth: '100px', display: 'block' }}
+          />
+        </NavLink>
+      </div>
+
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">
+          {links}
+        </ul>
+      </div>
+
+      <div className="navbar-end">
+        <CustomButton
+          className="justify-end"
+          btnText="Let's work Together"
+          url="contact"
+        />
+      </div>
+    </div>
+  );
 };
 
 export default NavBar;
