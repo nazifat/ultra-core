@@ -21,7 +21,7 @@ const Services = () => {
       <ServicesData></ServicesData>
 
       <ContactForDetails />
-      <Testimonial />
+      {/* <Testimonial /> */}
     </div>
   );
 };

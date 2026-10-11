@@ -19,8 +19,8 @@ const About = () => {
         <WhoWeAre></WhoWeAre>
         <Statistics></Statistics>
         <Technologies></Technologies>
-        <ExpertTeam></ExpertTeam>
-        <Testimonial></Testimonial>
+        {/* <ExpertTeam></ExpertTeam> */}
+        {/* <Testimonial></Testimonial> */}
         <LineDivider></LineDivider>
     </div>
     );
